@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+       
+    
+}
+
+body{  
+
+    
+}
+
+#contenedor {
+ 
+  background-image: url(../img/background.jpg);  
+  background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+    
+}
+
+#contenedor-overlay {
+    
+    position:absolute;
+    background-color: rgba(0,0,0,0.60);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    
+}
+
+.mensaje {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 18%;
+    text-align: center;
+    color: #ffffff;
+  
+    
+    
+}
+
+.mensaje h1 {
+    
+    font-size: 80px;     
+    text-rendering: optimizeLegibility;
+    
+     
+}
+
+.mensaje p{
+    font-size: 22px;
+    
+    
+}
+
+.logo {
+    
+    position: absolute;
+    width: 300px;
+    margin-left: 43%;
+    margin-top: 8%;
+    
+}
+
+@media (max-width: 600px){
+    
+    .mensaje {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 60%;
+    text-align: center;
+    color: #ffffff;        
+        
+    } 
+    
+}
+
+@media (max-width:600px){
+    
+    .mensaje h1 {
+    
+    font-size: 50px;  
+    
+    
+         
+}
+}
+
+@media (max-width:600px){
+    .mensaje p{
+    font-size: 20px;
+    
+    
+}
+    }
+
+@media(max-width:600px){
+    
+    .logo {
+    
+    position: absolute;
+    width: 260px;
+    margin-left: 13%;
+    margin-top: 15%;
+    
+}
+    
+}
+    
+
+
+

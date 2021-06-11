@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+
+
+
+body{
+    
+    background-image: url(../img/backgroundopaque.jpg); 
+    
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+     
+     
+    z-index: -1;
+    
+}
+
+.row {
+    background-color: white;
+    
+}
+
+.formulario {
+    
+    color: #7e7e7e;
+    width: 120%;
+    font-size:20px;
+    font-weight: bold;    
+    padding: 5%;
+    margin-left: 22%
+    
+    
+}
+
+
+
+#form-principal {
+    
+   
+}
+
+.card {
+        
+    margin-left: -15px;
+}
+
+.card img{    
+  
+    height: 250px;
+    width: 280px;
+    
+}
+
+.logo{
+    
+   width: 450px;
+   margin-left:5%;
+    
+}
+
+#realizarpedido {
+    
+    margin-top: 5%;
+    width: 800px;  
+    
+    
+}
+
+#myselection{
+    
+    margin-left: 1%;
+    margin-bottom: 3%;
+    margin-top: 19.5%;
+    
+    
+}
+
+.cantidad {
+    
+ margin-top: 14.9%;
+ margin-left: 1%;
+    
+}
+
+#productos{
+    
+    margin-left: 12%;
+    margin-bottom: -10%;
+    
+}
+
+.myDiv{
+	
+    margin-left: 22%;
+    text-align:center;
+    display: none;
+    margin-top: 14%;
+    margin-bottom: -15%;
+    
+}  
+.myDiv img{
+  margin: 0 auto;
+   
+}
+.myDiv span{
+	display: block;
+    width: 140px;    
+    margin: 8px auto;
+}
+#showLate-Night-Pink{
+	
+  width: 200px;
+    
+}
+#showZafiro{
+	width: 200px;
+}
+#showTiffany-Blue{
+	width: 200px;
+}
+
+#showGolden-Black{
+	width: 200px;
+}
+
+#showIrish-Green{
+	width: 200px;
+}
+
+#showPink-Mist{
+	width: 200px;
+}
+
+.aviso {
+    
+    margin-left: -30%;
+    margin-top: 15px;
+    
+}
+
+
+
+.metodo_pago{
+    
+ margin-top: 15%;
+    
+}
+
+
+
+
+
+
+.ordene-ahora{
+    
+    margin-top:3%;
+    font-size: 40px;
+    margin-left: 18%;
+    margin-bottom: 4%;
+    
+}
+
+.volver {
+    margin-top: 2%;
+    color: deeppink;
+    margin-left: 13%;
+}
+
+.volver a:link{
+    
+    text-decoration: none;
+    
+}
+
+.para-1{
+    
+    margin-left: -30%;
+    margin-bottom: 40px;
+    
+}
+
+#agencia-envio {
+    
+    margin-left: -14px;
+    
+    
+}
+
+@media(max-width:1000px) {
+    
+    .container{
+        
+       margin-left: 50px;
+    padding: 50px;
+        
+    }
+    .row {
+        position: relative;
+        margin-top:150px;
+        justify-content:space-around;
+        width: 1100px;
+        
+       
+ 
+        
+    }
+    
+    .formulario {
+        
+       margin-left:10%;
+       align-content: center;
+       margin-right: -120px;
+        
+        
+    }   
+    
+}
+
+.precios {
+    margin-top: -16%;
+    font-size: 20px;
+    
+}
+

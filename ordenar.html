@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Step Hair RD</title>
+</head>
+
+<link rel="stylesheet" href="css/ordenar.css">
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+
+<body>
+   
+   
+   <!-- Formulario de orden-->
+<div class="container mt-5">
+   
+      
+   
+   <div class="row">
+       
+       <form class="formulario">       
+       <img src="img/logo3.png" alt="logo" class="logo ml-5">
+       
+       <h4 class="ordene-ahora">Ordene Ahora!</h4>
+       <hr width="565px;" 
+        size="10"> 
+       
+  <div class="form-row d-flex">
+   
+    <div class="form-group col-md-3">
+      <label for="nombre">Nombre</label>
+      <input type="nombre" class="form-control" id="nombre">
+    </div>
+    
+    <div class="form-group col-md-5">
+      <label for="apellido">Apellido</label>
+      <input type="apellido" class="form-control" id="apellido">
+    </div>
+    <div class="form-group col-md-5">
+      <label for="apellido">Teléfono / Celular</label>
+      <input type="apellido" class="form-control" id="apellido">
+    </div>
+    
+  </div>
+  
+  
+  
+  
+  <div class="form-row d-flex">
+    <div class="form-group col-md-4 ">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    
+    <div class="form-group col-md-2">
+      <label for="cantidad">Cantidad</label>
+      <input type="password" class="form-control" id="cantidad">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="direccion">Dirección de Envío</label>
+    <input type="text" class="form-control col-md-8" id="direccion" placeholder="Calle #3 Santiago">
+  </div>
+  
+ <div class="form-group">
+    <label for="exampleFormControlTextarea1">Comentarios sobre la orden</label>
+    <textarea class="form-control col-md-8" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-3">
+      <label for="ciudad">Ciudad</label>
+      <input type="text" class="form-control" id="ciudad">
+    </div>
+    <div class="form-group col-md-3">
+      <label for="pais">País</label>
+      <select id="pais" class="form-control">
+        <option selected>Seleccionar</option>
+        <option>República Dominicana</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Código Postal</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    
+  </div>
+  
+  <h4 class="heading-2" id="productos" >Seleccione el Producto a Ordenar</h4>
+  
+  
+<div id="showOne" class="myDiv">
+	<img src="img/negrorosado/1.jpg" alt="Manager" class="img-responsive img-thumbnail"/><span>Negro Rosado</span>
+</div>
+<div id="showTwo" class="myDiv">
+	<img src="img/blue/4.jpg" alt="HR" class="img-responsive img-thumbnail"/><span>Azul Negro</span>
+</div>
+<div id="showThree" class="myDiv">
+	<img src="img/lightblue/1.jpg" alt="Developer" class="img-responsive img-thumbnail"/><span>Azul Cielo</span>
+</div>
+ 
+ <div id="showFour" class="myDiv">
+	<img src="img/negrooro/1.jpg" alt="Developer" class="img-responsive img-thumbnail"/><span>Negro Oro</span>
+</div>
+ 
+ <div id="showFive" class="myDiv">
+	<img src="/img/verdeoro/1.jpg" alt="Developer" class="img-responsive img-thumbnail"/><span>Verde Oro</span>
+</div>
+ <div id="showSix" class="myDiv">
+	<img src="/img/greypink/1.jpg" alt="Developer" class="img-responsive img-thumbnail"/><span>Gris Rosado</span>
+</div>
+  <select id="myselection" class="form-control col-md-3">
+	<option>Seleccionar Color</option>
+	<option value="One">Negro Rosado</option>
+	<option value="Two">Azul Negro</option>
+	<option value="Three">Azul Cielo</option>
+	<option value="" disabled="disabled">─Colores Exclusivos────────</option>
+	<option value="Four">Negro Oro</option>
+	<option value="Five">Verde Oro</option>
+	<option value="Six">Gris Rosado</option>
+	
+</select>
+
+ 
+  
+  <div class="form-group">
+   
+       
+  </div>
+    
+ <button type="button" class="btn btn-primary btn-lg col-md-8 btn-block" id="realizarpedido">SOLICITAR PRODUCTO</button>
+ <div class="volver">
+ <a href="index.html"><h4 class="volver">Volver al Inicio</h4></a>
+ </div>
+ 
+ <p class="aviso text-center"> Aviso, tras realizar su pedido uno de nuestros representantes lo <br>contactará via correo electrónico o WhatsApp<br> Contacto: +1(829)947-9002</p>
+ 
+</form>
+       
+       
+       
+   </div>
+   
+</div>
+
+<script>
+$(document).ready(function(){
+    $('#myselection').on('change', function(){
+    	var demovalue = $(this).val(); 
+        $("div.myDiv").hide();
+        $("#show"+demovalue).show();
+    });
+});
+</script>
+ 
+   
+    
+</body>
+</html>

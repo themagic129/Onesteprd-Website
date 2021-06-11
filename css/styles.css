@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+body{
+    
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+    
+}
+
+
+
+
+.logo-onestep {
+    
+    height: 60px;
+     
+    
+}
+
+.nav-link {
+    
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Lato condensed';
+    
+}
+
+
+.nav-link:hover {
+    
+   background-color: #ededed;
+   border-radius: 3px;
+}
+
+.active .nav-link{
+    color: #eb0000 !important;
+}
+
+.menu-right-btn {
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+
+
+.site-content{
+        
+    background-image: url('../img/banner.jpg');    
+    background-size: cover;
+    background-attachment: fixed;
+    height:500px;
+    
+}
+
+
+.site-title, .site-desc{
+    
+    color: white;
+    
+    
+}
+
+.site-title{
+    
+    margin-top: -50%;
+    margin-left:40px;
+    margin-bottom: 6%;
+    font-size: 50px;
+    
+}
+
+.site-desc{
+    
+    font-size: 16px;
+    padding-left: 14%;
+
+}
+
+.card-body {   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.site-btn1{
+    
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+}
+
+.site-btn2{
+    background-color: white;
+    
+}
+
+#productos {
+    
+    font-size: 20px;
+    
+}
+
+
+.site-btn1, .site-btn2{
+    
+    margin-top: 5%;
+    margin-bottom: 40%;
+    
+}
+
+.section-1 .heading-1{
+    
+    margin-top: 4%;
+    
+}
+
+.para-1 {
+    
+    margin-top: 2%;
+    
+}
+
+.section-1 .para-1 {
+    
+    font-size: 21px;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.section-1 .card-text, .para-1{
+    
+    color: rgb(0,0,0,0.59)
+    
+}
+
+
+
+.section-1 {
+    
+    margin-bottom: 8%;
+    
+}
+
+#tip {
+    
+    color: deeppink;
+    font-size: 30px;
+    font-family: 'Galada', cursive;
+    
+}
+
+#colores1 {
+   color: deeppink;
+    font-family: 'Galada', cursive;
+    font-size: 25px;
+    
+}
+
+#colores2 {
+   color: deeppink; 
+    font-size: 25px;
+     font-family: 'Galada', cursive;
+    
+}
+
+
+.section-2 .container-fluid {
+    
+    background-image: url('../img/background.jpg');
+    background-position:bottom;
+    background-size:370%;
+      
+}
+
+.card {
+    
+    margin-bottom: 50px;
+}
+
+.section-2 {
+    
+    margin-top: -5%;
+    
+}
+
+.section-2 .heading-1 {
+    
+    margin-top: 20%;
+    margin-bottom: 4%;
+    width: 80%;
+    color: #ffffff;
+    margin-left: -5px;
+    
+}
+
+.section-2 .para{
+    width:80%;
+    color: #ffffff;
+    margin-bottom: 7%;
+    font-size: 18px;
+
+    
+}
+
+.section-2 .btn {
+    margin-bottom: 15%;  
+    width:75%;
+    padding: 5% 5%;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2f2f2f;    
+    
+}
+
+
+.section-3 {
+    margin-top: 3%;
+    
+}
+
+.section-3 i{
+    color: #ff0000;
+    
+}
+
+.section-3 p{
+    color:  rgba(0,0,0,0.59);
+    
+}
+
+.section-3 img{
+ 
+ height: 280px;
+ width: 300px;
+ border-radius: 80%;
+ 
+    
+}
+
+
+
+
+
+.section-4 .row .col-md-7, .col-md-5{
+    
+    margin-top: 10%;
+    margin-bottom: 2%;
+    box-shadow:  6px 10px 10px rgba(0, 0, 0, 0.10);
+}
+
+.section-4 a{
+    
+    color: #cb0000;
+    font-size: 40px;
+    text-decoration: none;
+    
+    
+}
+
+.section-4 .para-1{
+    
+     color:  rgba(0,0,0,0.59);
+   
+    font-size: 23px;
+    
+}
+
+.sobre-nosotros {
+    color:  rgba(62, 62, 62, 0.8);
+    margin-top: 25px;
+    font-family: 'Galada', cursive;
+    font-size: 35px;
+    
+}
+
+#envio-nacional{
+    
+    font-size: 30px;
+    
+}
+
+
+.social i{
+    
+    color: #c70000;
+    font-size: 50px;
+    
+    
+}
+
+#contactos {
+    
+    font-size: 20px;
+    color:  rgba(0,0,0,0.59);
+    
+    
+}
+
+.comentario1 a{ 
+    
+    font-size: 20px;
+    margin-left: 26%;
+   
+    
+    
+}
+
+.comentario2 a{ 
+    
+    font-size: 20px;
+    margin-left: 20%;
+    
+    
+    
+    
+}
+
+.comentario3 a{ 
+    
+    font-size: 20px;
+    margin-left: 22%;
+    
+   
+}
+
+
+.eliana {
+    
+    font-size: 80px;
+    
+}
+
+.cabelloliso img{
+  width: 480px;
+  margin-left: 110%;
+  margin-top: 20%;
+    
+}
+
+#siguenos {
+    
+    margin-top: 50px;
+  
+    
+}
+
+.info-instagram {
+    
+    background-image: url('../img/mockup.jpg');    
+    background-size: cover;
+    height:500px;
+}
+
+@media(max-width:731px) {
+  .cabelloliso {
+      
+    margin-right: 100%;
+      margin-top: 40%; 
+  }
+    
+    .cabelloliso img{
+    width: 300px;
+        
+  }
+    
+}
+
+#success {
+    
+    margin-top: 15%;
+    
+}
+
+@media(max-width:731px) {
+  .cabelloliso {
+      
+    margin-right: 100%;
+      margin-top: 40%; 
+  }
+    
+    .cabelloliso img{
+    width: 300px;
+        
+  }
+    
+    .section-2 .container-fluid {
+    
+    
+    background-image: url('../img/background.jpg');
+    background-position:bottom;
+    background-size:1600%;
+      
+}
+    
+    .section-2 .d-flex {
+    
+    margin-left: 10%;
+  
+      
+    }
+    
+  
+    
+    
+    
+    
+}
+
+
